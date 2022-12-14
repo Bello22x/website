@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.jpg );
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.cart{
+    width: 30px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: darksalmon;
+
+}
+.content a{
+    color: white;
+    text-align: center;
+    padding-bottom: 300px;
+}
+.content p{
+    color: papayawhip;
+    font-size: 20px;
+}
+
+.content .btn{
+    display: inline block;
+    background: linear-gradient(45deg, yellow, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: aliceblue;
+    box-shadow: 3px, 8px, 22px, rgba(94, 28, 68, 0);
+
+}
+.arrow-icons{
+    margin-top: 80px;
+    display: flex;
+    cursor: pointer;
+}
+
+.star{
+   height: 80%;
+   position: absolute;
+   bottom: 0;
+   right: 30px;
+}
+   
+
+
